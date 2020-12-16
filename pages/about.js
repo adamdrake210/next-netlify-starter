@@ -3,7 +3,7 @@ import Header from "@components/Header";
 import Footer from "@components/Footer";
 import Nav from "@components/Nav";
 
-export default function Home() {
+export default function About() {
   return (
     <div className="container">
       <Head>
@@ -14,9 +14,7 @@ export default function Home() {
       <main>
         <Nav />
         <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <p className="description">About us</p>
       </main>
 
       <Footer />
